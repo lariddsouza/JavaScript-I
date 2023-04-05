@@ -1,7 +1,7 @@
 const livros = require('./listalivros');
 const menorValor = require('./menorvalor');
 
-for(let atual = 0; atual < livros.length; atual++) {
+for(let atual = 0; atual < livros.length - 1; atual++) {
     let menor = menorValor(livros, atual);
 
     let livroAtual = livros[atual];
